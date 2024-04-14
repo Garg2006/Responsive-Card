@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    background-color:hsl(0, 0%, 8%);
+    color:white;
+   
+}
+
+.container{
+    max-width:410px;
+    margin:60px auto;
+    background-color: hsl(0, 0%, 12%);
+    text-align:center;
+    border-radius:1rem;
+}
+
+.developer-img{
+    max-width:100px;
+    margin:0 auto;
+    padding:20px;
+}
+
+img{
+    width:100%;
+    border-radius:50%;
+}
+
+.developer-name h1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.developer-location h4{
+    color:hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.developer-account{
+    margin-top:50px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      padding-bottom:20px
+}
+
+
+.developer-account h3{
+    background-color:hsl(0, 0%, 20%);
+    margin:20px 40px ;
+    padding:15px  20px;
+    border-radius:10px;
+    cursor:pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.developer-account h3:hover{
+    background-color:  hsl(75, 94%, 57%);
+    transition:0.5s ease-in-out;
+    color:black;
+}
+
+@media only screen and (max-width: 450px) {
+   .container {
+      margin:40px 20px;
+    }
+  }
+
+  /* @media only screen and (min-width: 455px) and (max-width:550px) {
+    .container {
+       margin-left: auto;
+     }
+   } */
+
+  @media only screen and (max-width: 460px) {
+     .developer-account h3{
+         margin:20px 20px
+     }
+   }
+
+   @media only screen and (min-width: 0px ),
+               screen and (min-height:0px){
+    body{
+        height:100vh;
+        display:grid;
+        align-content: space-around;
+    }
+ 
+  }
